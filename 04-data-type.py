@@ -15,3 +15,4 @@ pi=3.14
 radius=5
 area=pi*radius**2
 print(area)
+print(2*9)
