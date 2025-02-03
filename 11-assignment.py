@@ -3,7 +3,7 @@ given total number of marks and marks scored by a student,
 calculate weather the student has passed or failed. if the percentage marks secured by the student is 
 less than 40 then student needs to reappear the exam. 
 """
-""" 
+
 total_marks=int(input("enter the total marks: "))
 scored_marks=int(input("enter the scored marks: "))
 
@@ -13,7 +13,7 @@ if(percentage<40):
         print("You need to reappear for the exam.")
 else:
         print("you have passed the exam")
- """
+
 
 """given list of students marks and total number in an exam and pass percentage as well, 
 filter the students who passed and failed,"""
