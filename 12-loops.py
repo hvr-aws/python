@@ -76,14 +76,4 @@ if x>0:
 elif x < 0:
      print("given nmbr is negative")
 else:
-    print("Given number is zero.")
-
-
-
-
-
-
-
-    
-     
-
+    print("Given number is zero.") 
