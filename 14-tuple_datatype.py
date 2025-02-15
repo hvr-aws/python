@@ -30,3 +30,7 @@ a=(12,34,45)
 
 for idx,ele in enumerate(a):
     print(idx,ele)
+
+# rhis gives us the output the type of data type
+a= 10,22,33
+print (type(a))
