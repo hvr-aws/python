@@ -1,0 +1,17 @@
+# count char in string
+s = input("Enter a string: ")
+d = {}
+for char in s:
+    if char in d.keys():
+        d[char] += 1
+    else:
+        d[char] = 1
+for key, value in d.items():
+    print('{} = {} times'.format(key, value))
+print("Total unique characters:", len(d))
+print("Total characters:", len(s))  
+# This code counts the occurrences of each character in a string and prints the count of each character, 
+# the total number of unique characters, and the total number of characters in the string.  
+# It uses a dictionary to store the character counts and iterates through the string to populate the dictionary.
+# The final output includes the count of each character, the total number of unique characters, and the total number of characters in the string.
+
